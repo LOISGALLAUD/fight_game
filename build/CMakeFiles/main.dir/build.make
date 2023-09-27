@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/lois/Documents/cpp/fight_game/build
+CMAKE_SOURCE_DIR = /home/lois/Documents/fight_game/build
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/lois/Documents/cpp/fight_game/build
+CMAKE_BINARY_DIR = /home/lois/Documents/fight_game/build
 
 # Include any dependencies generated for this target.
 include CMakeFiles/main.dir/depend.make
@@ -69,147 +69,147 @@ include CMakeFiles/main.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/main.dir/flags.make
 
-CMakeFiles/main.dir/home/lois/Documents/cpp/fight_game/src/Character.cpp.o: CMakeFiles/main.dir/flags.make
-CMakeFiles/main.dir/home/lois/Documents/cpp/fight_game/src/Character.cpp.o: /home/lois/Documents/cpp/fight_game/src/Character.cpp
-CMakeFiles/main.dir/home/lois/Documents/cpp/fight_game/src/Character.cpp.o: CMakeFiles/main.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lois/Documents/cpp/fight_game/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/main.dir/home/lois/Documents/cpp/fight_game/src/Character.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main.dir/home/lois/Documents/cpp/fight_game/src/Character.cpp.o -MF CMakeFiles/main.dir/home/lois/Documents/cpp/fight_game/src/Character.cpp.o.d -o CMakeFiles/main.dir/home/lois/Documents/cpp/fight_game/src/Character.cpp.o -c /home/lois/Documents/cpp/fight_game/src/Character.cpp
+CMakeFiles/main.dir/home/lois/Documents/fight_game/src/Character.cpp.o: CMakeFiles/main.dir/flags.make
+CMakeFiles/main.dir/home/lois/Documents/fight_game/src/Character.cpp.o: /home/lois/Documents/fight_game/src/Character.cpp
+CMakeFiles/main.dir/home/lois/Documents/fight_game/src/Character.cpp.o: CMakeFiles/main.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lois/Documents/fight_game/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/main.dir/home/lois/Documents/fight_game/src/Character.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main.dir/home/lois/Documents/fight_game/src/Character.cpp.o -MF CMakeFiles/main.dir/home/lois/Documents/fight_game/src/Character.cpp.o.d -o CMakeFiles/main.dir/home/lois/Documents/fight_game/src/Character.cpp.o -c /home/lois/Documents/fight_game/src/Character.cpp
 
-CMakeFiles/main.dir/home/lois/Documents/cpp/fight_game/src/Character.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/main.dir/home/lois/Documents/cpp/fight_game/src/Character.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lois/Documents/cpp/fight_game/src/Character.cpp > CMakeFiles/main.dir/home/lois/Documents/cpp/fight_game/src/Character.cpp.i
+CMakeFiles/main.dir/home/lois/Documents/fight_game/src/Character.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/main.dir/home/lois/Documents/fight_game/src/Character.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lois/Documents/fight_game/src/Character.cpp > CMakeFiles/main.dir/home/lois/Documents/fight_game/src/Character.cpp.i
 
-CMakeFiles/main.dir/home/lois/Documents/cpp/fight_game/src/Character.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/main.dir/home/lois/Documents/cpp/fight_game/src/Character.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lois/Documents/cpp/fight_game/src/Character.cpp -o CMakeFiles/main.dir/home/lois/Documents/cpp/fight_game/src/Character.cpp.s
+CMakeFiles/main.dir/home/lois/Documents/fight_game/src/Character.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/main.dir/home/lois/Documents/fight_game/src/Character.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lois/Documents/fight_game/src/Character.cpp -o CMakeFiles/main.dir/home/lois/Documents/fight_game/src/Character.cpp.s
 
-CMakeFiles/main.dir/home/lois/Documents/cpp/fight_game/src/Golem.cpp.o: CMakeFiles/main.dir/flags.make
-CMakeFiles/main.dir/home/lois/Documents/cpp/fight_game/src/Golem.cpp.o: /home/lois/Documents/cpp/fight_game/src/Golem.cpp
-CMakeFiles/main.dir/home/lois/Documents/cpp/fight_game/src/Golem.cpp.o: CMakeFiles/main.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lois/Documents/cpp/fight_game/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/main.dir/home/lois/Documents/cpp/fight_game/src/Golem.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main.dir/home/lois/Documents/cpp/fight_game/src/Golem.cpp.o -MF CMakeFiles/main.dir/home/lois/Documents/cpp/fight_game/src/Golem.cpp.o.d -o CMakeFiles/main.dir/home/lois/Documents/cpp/fight_game/src/Golem.cpp.o -c /home/lois/Documents/cpp/fight_game/src/Golem.cpp
+CMakeFiles/main.dir/home/lois/Documents/fight_game/src/Golem.cpp.o: CMakeFiles/main.dir/flags.make
+CMakeFiles/main.dir/home/lois/Documents/fight_game/src/Golem.cpp.o: /home/lois/Documents/fight_game/src/Golem.cpp
+CMakeFiles/main.dir/home/lois/Documents/fight_game/src/Golem.cpp.o: CMakeFiles/main.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lois/Documents/fight_game/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/main.dir/home/lois/Documents/fight_game/src/Golem.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main.dir/home/lois/Documents/fight_game/src/Golem.cpp.o -MF CMakeFiles/main.dir/home/lois/Documents/fight_game/src/Golem.cpp.o.d -o CMakeFiles/main.dir/home/lois/Documents/fight_game/src/Golem.cpp.o -c /home/lois/Documents/fight_game/src/Golem.cpp
 
-CMakeFiles/main.dir/home/lois/Documents/cpp/fight_game/src/Golem.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/main.dir/home/lois/Documents/cpp/fight_game/src/Golem.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lois/Documents/cpp/fight_game/src/Golem.cpp > CMakeFiles/main.dir/home/lois/Documents/cpp/fight_game/src/Golem.cpp.i
+CMakeFiles/main.dir/home/lois/Documents/fight_game/src/Golem.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/main.dir/home/lois/Documents/fight_game/src/Golem.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lois/Documents/fight_game/src/Golem.cpp > CMakeFiles/main.dir/home/lois/Documents/fight_game/src/Golem.cpp.i
 
-CMakeFiles/main.dir/home/lois/Documents/cpp/fight_game/src/Golem.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/main.dir/home/lois/Documents/cpp/fight_game/src/Golem.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lois/Documents/cpp/fight_game/src/Golem.cpp -o CMakeFiles/main.dir/home/lois/Documents/cpp/fight_game/src/Golem.cpp.s
+CMakeFiles/main.dir/home/lois/Documents/fight_game/src/Golem.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/main.dir/home/lois/Documents/fight_game/src/Golem.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lois/Documents/fight_game/src/Golem.cpp -o CMakeFiles/main.dir/home/lois/Documents/fight_game/src/Golem.cpp.s
 
-CMakeFiles/main.dir/home/lois/Documents/cpp/fight_game/src/Inventory.cpp.o: CMakeFiles/main.dir/flags.make
-CMakeFiles/main.dir/home/lois/Documents/cpp/fight_game/src/Inventory.cpp.o: /home/lois/Documents/cpp/fight_game/src/Inventory.cpp
-CMakeFiles/main.dir/home/lois/Documents/cpp/fight_game/src/Inventory.cpp.o: CMakeFiles/main.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lois/Documents/cpp/fight_game/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/main.dir/home/lois/Documents/cpp/fight_game/src/Inventory.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main.dir/home/lois/Documents/cpp/fight_game/src/Inventory.cpp.o -MF CMakeFiles/main.dir/home/lois/Documents/cpp/fight_game/src/Inventory.cpp.o.d -o CMakeFiles/main.dir/home/lois/Documents/cpp/fight_game/src/Inventory.cpp.o -c /home/lois/Documents/cpp/fight_game/src/Inventory.cpp
+CMakeFiles/main.dir/home/lois/Documents/fight_game/src/Inventory.cpp.o: CMakeFiles/main.dir/flags.make
+CMakeFiles/main.dir/home/lois/Documents/fight_game/src/Inventory.cpp.o: /home/lois/Documents/fight_game/src/Inventory.cpp
+CMakeFiles/main.dir/home/lois/Documents/fight_game/src/Inventory.cpp.o: CMakeFiles/main.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lois/Documents/fight_game/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/main.dir/home/lois/Documents/fight_game/src/Inventory.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main.dir/home/lois/Documents/fight_game/src/Inventory.cpp.o -MF CMakeFiles/main.dir/home/lois/Documents/fight_game/src/Inventory.cpp.o.d -o CMakeFiles/main.dir/home/lois/Documents/fight_game/src/Inventory.cpp.o -c /home/lois/Documents/fight_game/src/Inventory.cpp
 
-CMakeFiles/main.dir/home/lois/Documents/cpp/fight_game/src/Inventory.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/main.dir/home/lois/Documents/cpp/fight_game/src/Inventory.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lois/Documents/cpp/fight_game/src/Inventory.cpp > CMakeFiles/main.dir/home/lois/Documents/cpp/fight_game/src/Inventory.cpp.i
+CMakeFiles/main.dir/home/lois/Documents/fight_game/src/Inventory.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/main.dir/home/lois/Documents/fight_game/src/Inventory.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lois/Documents/fight_game/src/Inventory.cpp > CMakeFiles/main.dir/home/lois/Documents/fight_game/src/Inventory.cpp.i
 
-CMakeFiles/main.dir/home/lois/Documents/cpp/fight_game/src/Inventory.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/main.dir/home/lois/Documents/cpp/fight_game/src/Inventory.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lois/Documents/cpp/fight_game/src/Inventory.cpp -o CMakeFiles/main.dir/home/lois/Documents/cpp/fight_game/src/Inventory.cpp.s
+CMakeFiles/main.dir/home/lois/Documents/fight_game/src/Inventory.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/main.dir/home/lois/Documents/fight_game/src/Inventory.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lois/Documents/fight_game/src/Inventory.cpp -o CMakeFiles/main.dir/home/lois/Documents/fight_game/src/Inventory.cpp.s
 
-CMakeFiles/main.dir/home/lois/Documents/cpp/fight_game/src/Item.cpp.o: CMakeFiles/main.dir/flags.make
-CMakeFiles/main.dir/home/lois/Documents/cpp/fight_game/src/Item.cpp.o: /home/lois/Documents/cpp/fight_game/src/Item.cpp
-CMakeFiles/main.dir/home/lois/Documents/cpp/fight_game/src/Item.cpp.o: CMakeFiles/main.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lois/Documents/cpp/fight_game/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/main.dir/home/lois/Documents/cpp/fight_game/src/Item.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main.dir/home/lois/Documents/cpp/fight_game/src/Item.cpp.o -MF CMakeFiles/main.dir/home/lois/Documents/cpp/fight_game/src/Item.cpp.o.d -o CMakeFiles/main.dir/home/lois/Documents/cpp/fight_game/src/Item.cpp.o -c /home/lois/Documents/cpp/fight_game/src/Item.cpp
+CMakeFiles/main.dir/home/lois/Documents/fight_game/src/Item.cpp.o: CMakeFiles/main.dir/flags.make
+CMakeFiles/main.dir/home/lois/Documents/fight_game/src/Item.cpp.o: /home/lois/Documents/fight_game/src/Item.cpp
+CMakeFiles/main.dir/home/lois/Documents/fight_game/src/Item.cpp.o: CMakeFiles/main.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lois/Documents/fight_game/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/main.dir/home/lois/Documents/fight_game/src/Item.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main.dir/home/lois/Documents/fight_game/src/Item.cpp.o -MF CMakeFiles/main.dir/home/lois/Documents/fight_game/src/Item.cpp.o.d -o CMakeFiles/main.dir/home/lois/Documents/fight_game/src/Item.cpp.o -c /home/lois/Documents/fight_game/src/Item.cpp
 
-CMakeFiles/main.dir/home/lois/Documents/cpp/fight_game/src/Item.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/main.dir/home/lois/Documents/cpp/fight_game/src/Item.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lois/Documents/cpp/fight_game/src/Item.cpp > CMakeFiles/main.dir/home/lois/Documents/cpp/fight_game/src/Item.cpp.i
+CMakeFiles/main.dir/home/lois/Documents/fight_game/src/Item.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/main.dir/home/lois/Documents/fight_game/src/Item.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lois/Documents/fight_game/src/Item.cpp > CMakeFiles/main.dir/home/lois/Documents/fight_game/src/Item.cpp.i
 
-CMakeFiles/main.dir/home/lois/Documents/cpp/fight_game/src/Item.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/main.dir/home/lois/Documents/cpp/fight_game/src/Item.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lois/Documents/cpp/fight_game/src/Item.cpp -o CMakeFiles/main.dir/home/lois/Documents/cpp/fight_game/src/Item.cpp.s
+CMakeFiles/main.dir/home/lois/Documents/fight_game/src/Item.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/main.dir/home/lois/Documents/fight_game/src/Item.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lois/Documents/fight_game/src/Item.cpp -o CMakeFiles/main.dir/home/lois/Documents/fight_game/src/Item.cpp.s
 
-CMakeFiles/main.dir/home/lois/Documents/cpp/fight_game/src/Knight.cpp.o: CMakeFiles/main.dir/flags.make
-CMakeFiles/main.dir/home/lois/Documents/cpp/fight_game/src/Knight.cpp.o: /home/lois/Documents/cpp/fight_game/src/Knight.cpp
-CMakeFiles/main.dir/home/lois/Documents/cpp/fight_game/src/Knight.cpp.o: CMakeFiles/main.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lois/Documents/cpp/fight_game/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/main.dir/home/lois/Documents/cpp/fight_game/src/Knight.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main.dir/home/lois/Documents/cpp/fight_game/src/Knight.cpp.o -MF CMakeFiles/main.dir/home/lois/Documents/cpp/fight_game/src/Knight.cpp.o.d -o CMakeFiles/main.dir/home/lois/Documents/cpp/fight_game/src/Knight.cpp.o -c /home/lois/Documents/cpp/fight_game/src/Knight.cpp
+CMakeFiles/main.dir/home/lois/Documents/fight_game/src/Knight.cpp.o: CMakeFiles/main.dir/flags.make
+CMakeFiles/main.dir/home/lois/Documents/fight_game/src/Knight.cpp.o: /home/lois/Documents/fight_game/src/Knight.cpp
+CMakeFiles/main.dir/home/lois/Documents/fight_game/src/Knight.cpp.o: CMakeFiles/main.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lois/Documents/fight_game/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/main.dir/home/lois/Documents/fight_game/src/Knight.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main.dir/home/lois/Documents/fight_game/src/Knight.cpp.o -MF CMakeFiles/main.dir/home/lois/Documents/fight_game/src/Knight.cpp.o.d -o CMakeFiles/main.dir/home/lois/Documents/fight_game/src/Knight.cpp.o -c /home/lois/Documents/fight_game/src/Knight.cpp
 
-CMakeFiles/main.dir/home/lois/Documents/cpp/fight_game/src/Knight.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/main.dir/home/lois/Documents/cpp/fight_game/src/Knight.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lois/Documents/cpp/fight_game/src/Knight.cpp > CMakeFiles/main.dir/home/lois/Documents/cpp/fight_game/src/Knight.cpp.i
+CMakeFiles/main.dir/home/lois/Documents/fight_game/src/Knight.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/main.dir/home/lois/Documents/fight_game/src/Knight.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lois/Documents/fight_game/src/Knight.cpp > CMakeFiles/main.dir/home/lois/Documents/fight_game/src/Knight.cpp.i
 
-CMakeFiles/main.dir/home/lois/Documents/cpp/fight_game/src/Knight.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/main.dir/home/lois/Documents/cpp/fight_game/src/Knight.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lois/Documents/cpp/fight_game/src/Knight.cpp -o CMakeFiles/main.dir/home/lois/Documents/cpp/fight_game/src/Knight.cpp.s
+CMakeFiles/main.dir/home/lois/Documents/fight_game/src/Knight.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/main.dir/home/lois/Documents/fight_game/src/Knight.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lois/Documents/fight_game/src/Knight.cpp -o CMakeFiles/main.dir/home/lois/Documents/fight_game/src/Knight.cpp.s
 
-CMakeFiles/main.dir/home/lois/Documents/cpp/fight_game/src/Weapon.cpp.o: CMakeFiles/main.dir/flags.make
-CMakeFiles/main.dir/home/lois/Documents/cpp/fight_game/src/Weapon.cpp.o: /home/lois/Documents/cpp/fight_game/src/Weapon.cpp
-CMakeFiles/main.dir/home/lois/Documents/cpp/fight_game/src/Weapon.cpp.o: CMakeFiles/main.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lois/Documents/cpp/fight_game/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/main.dir/home/lois/Documents/cpp/fight_game/src/Weapon.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main.dir/home/lois/Documents/cpp/fight_game/src/Weapon.cpp.o -MF CMakeFiles/main.dir/home/lois/Documents/cpp/fight_game/src/Weapon.cpp.o.d -o CMakeFiles/main.dir/home/lois/Documents/cpp/fight_game/src/Weapon.cpp.o -c /home/lois/Documents/cpp/fight_game/src/Weapon.cpp
+CMakeFiles/main.dir/home/lois/Documents/fight_game/src/Weapon.cpp.o: CMakeFiles/main.dir/flags.make
+CMakeFiles/main.dir/home/lois/Documents/fight_game/src/Weapon.cpp.o: /home/lois/Documents/fight_game/src/Weapon.cpp
+CMakeFiles/main.dir/home/lois/Documents/fight_game/src/Weapon.cpp.o: CMakeFiles/main.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lois/Documents/fight_game/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/main.dir/home/lois/Documents/fight_game/src/Weapon.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main.dir/home/lois/Documents/fight_game/src/Weapon.cpp.o -MF CMakeFiles/main.dir/home/lois/Documents/fight_game/src/Weapon.cpp.o.d -o CMakeFiles/main.dir/home/lois/Documents/fight_game/src/Weapon.cpp.o -c /home/lois/Documents/fight_game/src/Weapon.cpp
 
-CMakeFiles/main.dir/home/lois/Documents/cpp/fight_game/src/Weapon.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/main.dir/home/lois/Documents/cpp/fight_game/src/Weapon.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lois/Documents/cpp/fight_game/src/Weapon.cpp > CMakeFiles/main.dir/home/lois/Documents/cpp/fight_game/src/Weapon.cpp.i
+CMakeFiles/main.dir/home/lois/Documents/fight_game/src/Weapon.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/main.dir/home/lois/Documents/fight_game/src/Weapon.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lois/Documents/fight_game/src/Weapon.cpp > CMakeFiles/main.dir/home/lois/Documents/fight_game/src/Weapon.cpp.i
 
-CMakeFiles/main.dir/home/lois/Documents/cpp/fight_game/src/Weapon.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/main.dir/home/lois/Documents/cpp/fight_game/src/Weapon.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lois/Documents/cpp/fight_game/src/Weapon.cpp -o CMakeFiles/main.dir/home/lois/Documents/cpp/fight_game/src/Weapon.cpp.s
+CMakeFiles/main.dir/home/lois/Documents/fight_game/src/Weapon.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/main.dir/home/lois/Documents/fight_game/src/Weapon.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lois/Documents/fight_game/src/Weapon.cpp -o CMakeFiles/main.dir/home/lois/Documents/fight_game/src/Weapon.cpp.s
 
-CMakeFiles/main.dir/home/lois/Documents/cpp/fight_game/src/Wizard.cpp.o: CMakeFiles/main.dir/flags.make
-CMakeFiles/main.dir/home/lois/Documents/cpp/fight_game/src/Wizard.cpp.o: /home/lois/Documents/cpp/fight_game/src/Wizard.cpp
-CMakeFiles/main.dir/home/lois/Documents/cpp/fight_game/src/Wizard.cpp.o: CMakeFiles/main.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lois/Documents/cpp/fight_game/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/main.dir/home/lois/Documents/cpp/fight_game/src/Wizard.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main.dir/home/lois/Documents/cpp/fight_game/src/Wizard.cpp.o -MF CMakeFiles/main.dir/home/lois/Documents/cpp/fight_game/src/Wizard.cpp.o.d -o CMakeFiles/main.dir/home/lois/Documents/cpp/fight_game/src/Wizard.cpp.o -c /home/lois/Documents/cpp/fight_game/src/Wizard.cpp
+CMakeFiles/main.dir/home/lois/Documents/fight_game/src/Wizard.cpp.o: CMakeFiles/main.dir/flags.make
+CMakeFiles/main.dir/home/lois/Documents/fight_game/src/Wizard.cpp.o: /home/lois/Documents/fight_game/src/Wizard.cpp
+CMakeFiles/main.dir/home/lois/Documents/fight_game/src/Wizard.cpp.o: CMakeFiles/main.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lois/Documents/fight_game/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/main.dir/home/lois/Documents/fight_game/src/Wizard.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main.dir/home/lois/Documents/fight_game/src/Wizard.cpp.o -MF CMakeFiles/main.dir/home/lois/Documents/fight_game/src/Wizard.cpp.o.d -o CMakeFiles/main.dir/home/lois/Documents/fight_game/src/Wizard.cpp.o -c /home/lois/Documents/fight_game/src/Wizard.cpp
 
-CMakeFiles/main.dir/home/lois/Documents/cpp/fight_game/src/Wizard.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/main.dir/home/lois/Documents/cpp/fight_game/src/Wizard.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lois/Documents/cpp/fight_game/src/Wizard.cpp > CMakeFiles/main.dir/home/lois/Documents/cpp/fight_game/src/Wizard.cpp.i
+CMakeFiles/main.dir/home/lois/Documents/fight_game/src/Wizard.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/main.dir/home/lois/Documents/fight_game/src/Wizard.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lois/Documents/fight_game/src/Wizard.cpp > CMakeFiles/main.dir/home/lois/Documents/fight_game/src/Wizard.cpp.i
 
-CMakeFiles/main.dir/home/lois/Documents/cpp/fight_game/src/Wizard.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/main.dir/home/lois/Documents/cpp/fight_game/src/Wizard.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lois/Documents/cpp/fight_game/src/Wizard.cpp -o CMakeFiles/main.dir/home/lois/Documents/cpp/fight_game/src/Wizard.cpp.s
+CMakeFiles/main.dir/home/lois/Documents/fight_game/src/Wizard.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/main.dir/home/lois/Documents/fight_game/src/Wizard.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lois/Documents/fight_game/src/Wizard.cpp -o CMakeFiles/main.dir/home/lois/Documents/fight_game/src/Wizard.cpp.s
 
-CMakeFiles/main.dir/home/lois/Documents/cpp/fight_game/src/main.cpp.o: CMakeFiles/main.dir/flags.make
-CMakeFiles/main.dir/home/lois/Documents/cpp/fight_game/src/main.cpp.o: /home/lois/Documents/cpp/fight_game/src/main.cpp
-CMakeFiles/main.dir/home/lois/Documents/cpp/fight_game/src/main.cpp.o: CMakeFiles/main.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lois/Documents/cpp/fight_game/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/main.dir/home/lois/Documents/cpp/fight_game/src/main.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main.dir/home/lois/Documents/cpp/fight_game/src/main.cpp.o -MF CMakeFiles/main.dir/home/lois/Documents/cpp/fight_game/src/main.cpp.o.d -o CMakeFiles/main.dir/home/lois/Documents/cpp/fight_game/src/main.cpp.o -c /home/lois/Documents/cpp/fight_game/src/main.cpp
+CMakeFiles/main.dir/home/lois/Documents/fight_game/src/main.cpp.o: CMakeFiles/main.dir/flags.make
+CMakeFiles/main.dir/home/lois/Documents/fight_game/src/main.cpp.o: /home/lois/Documents/fight_game/src/main.cpp
+CMakeFiles/main.dir/home/lois/Documents/fight_game/src/main.cpp.o: CMakeFiles/main.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lois/Documents/fight_game/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/main.dir/home/lois/Documents/fight_game/src/main.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main.dir/home/lois/Documents/fight_game/src/main.cpp.o -MF CMakeFiles/main.dir/home/lois/Documents/fight_game/src/main.cpp.o.d -o CMakeFiles/main.dir/home/lois/Documents/fight_game/src/main.cpp.o -c /home/lois/Documents/fight_game/src/main.cpp
 
-CMakeFiles/main.dir/home/lois/Documents/cpp/fight_game/src/main.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/main.dir/home/lois/Documents/cpp/fight_game/src/main.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lois/Documents/cpp/fight_game/src/main.cpp > CMakeFiles/main.dir/home/lois/Documents/cpp/fight_game/src/main.cpp.i
+CMakeFiles/main.dir/home/lois/Documents/fight_game/src/main.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/main.dir/home/lois/Documents/fight_game/src/main.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lois/Documents/fight_game/src/main.cpp > CMakeFiles/main.dir/home/lois/Documents/fight_game/src/main.cpp.i
 
-CMakeFiles/main.dir/home/lois/Documents/cpp/fight_game/src/main.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/main.dir/home/lois/Documents/cpp/fight_game/src/main.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lois/Documents/cpp/fight_game/src/main.cpp -o CMakeFiles/main.dir/home/lois/Documents/cpp/fight_game/src/main.cpp.s
+CMakeFiles/main.dir/home/lois/Documents/fight_game/src/main.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/main.dir/home/lois/Documents/fight_game/src/main.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lois/Documents/fight_game/src/main.cpp -o CMakeFiles/main.dir/home/lois/Documents/fight_game/src/main.cpp.s
 
 # Object files for target main
 main_OBJECTS = \
-"CMakeFiles/main.dir/home/lois/Documents/cpp/fight_game/src/Character.cpp.o" \
-"CMakeFiles/main.dir/home/lois/Documents/cpp/fight_game/src/Golem.cpp.o" \
-"CMakeFiles/main.dir/home/lois/Documents/cpp/fight_game/src/Inventory.cpp.o" \
-"CMakeFiles/main.dir/home/lois/Documents/cpp/fight_game/src/Item.cpp.o" \
-"CMakeFiles/main.dir/home/lois/Documents/cpp/fight_game/src/Knight.cpp.o" \
-"CMakeFiles/main.dir/home/lois/Documents/cpp/fight_game/src/Weapon.cpp.o" \
-"CMakeFiles/main.dir/home/lois/Documents/cpp/fight_game/src/Wizard.cpp.o" \
-"CMakeFiles/main.dir/home/lois/Documents/cpp/fight_game/src/main.cpp.o"
+"CMakeFiles/main.dir/home/lois/Documents/fight_game/src/Character.cpp.o" \
+"CMakeFiles/main.dir/home/lois/Documents/fight_game/src/Golem.cpp.o" \
+"CMakeFiles/main.dir/home/lois/Documents/fight_game/src/Inventory.cpp.o" \
+"CMakeFiles/main.dir/home/lois/Documents/fight_game/src/Item.cpp.o" \
+"CMakeFiles/main.dir/home/lois/Documents/fight_game/src/Knight.cpp.o" \
+"CMakeFiles/main.dir/home/lois/Documents/fight_game/src/Weapon.cpp.o" \
+"CMakeFiles/main.dir/home/lois/Documents/fight_game/src/Wizard.cpp.o" \
+"CMakeFiles/main.dir/home/lois/Documents/fight_game/src/main.cpp.o"
 
 # External object files for target main
 main_EXTERNAL_OBJECTS =
 
-/home/lois/Documents/cpp/fight_game/bin/main: CMakeFiles/main.dir/home/lois/Documents/cpp/fight_game/src/Character.cpp.o
-/home/lois/Documents/cpp/fight_game/bin/main: CMakeFiles/main.dir/home/lois/Documents/cpp/fight_game/src/Golem.cpp.o
-/home/lois/Documents/cpp/fight_game/bin/main: CMakeFiles/main.dir/home/lois/Documents/cpp/fight_game/src/Inventory.cpp.o
-/home/lois/Documents/cpp/fight_game/bin/main: CMakeFiles/main.dir/home/lois/Documents/cpp/fight_game/src/Item.cpp.o
-/home/lois/Documents/cpp/fight_game/bin/main: CMakeFiles/main.dir/home/lois/Documents/cpp/fight_game/src/Knight.cpp.o
-/home/lois/Documents/cpp/fight_game/bin/main: CMakeFiles/main.dir/home/lois/Documents/cpp/fight_game/src/Weapon.cpp.o
-/home/lois/Documents/cpp/fight_game/bin/main: CMakeFiles/main.dir/home/lois/Documents/cpp/fight_game/src/Wizard.cpp.o
-/home/lois/Documents/cpp/fight_game/bin/main: CMakeFiles/main.dir/home/lois/Documents/cpp/fight_game/src/main.cpp.o
-/home/lois/Documents/cpp/fight_game/bin/main: CMakeFiles/main.dir/build.make
-/home/lois/Documents/cpp/fight_game/bin/main: CMakeFiles/main.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/lois/Documents/cpp/fight_game/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Linking CXX executable /home/lois/Documents/cpp/fight_game/bin/main"
+/home/lois/Documents/fight_game/bin/main: CMakeFiles/main.dir/home/lois/Documents/fight_game/src/Character.cpp.o
+/home/lois/Documents/fight_game/bin/main: CMakeFiles/main.dir/home/lois/Documents/fight_game/src/Golem.cpp.o
+/home/lois/Documents/fight_game/bin/main: CMakeFiles/main.dir/home/lois/Documents/fight_game/src/Inventory.cpp.o
+/home/lois/Documents/fight_game/bin/main: CMakeFiles/main.dir/home/lois/Documents/fight_game/src/Item.cpp.o
+/home/lois/Documents/fight_game/bin/main: CMakeFiles/main.dir/home/lois/Documents/fight_game/src/Knight.cpp.o
+/home/lois/Documents/fight_game/bin/main: CMakeFiles/main.dir/home/lois/Documents/fight_game/src/Weapon.cpp.o
+/home/lois/Documents/fight_game/bin/main: CMakeFiles/main.dir/home/lois/Documents/fight_game/src/Wizard.cpp.o
+/home/lois/Documents/fight_game/bin/main: CMakeFiles/main.dir/home/lois/Documents/fight_game/src/main.cpp.o
+/home/lois/Documents/fight_game/bin/main: CMakeFiles/main.dir/build.make
+/home/lois/Documents/fight_game/bin/main: CMakeFiles/main.dir/link.txt
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/lois/Documents/fight_game/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Linking CXX executable /home/lois/Documents/fight_game/bin/main"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/main.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
-CMakeFiles/main.dir/build: /home/lois/Documents/cpp/fight_game/bin/main
+CMakeFiles/main.dir/build: /home/lois/Documents/fight_game/bin/main
 .PHONY : CMakeFiles/main.dir/build
 
 CMakeFiles/main.dir/clean:
@@ -217,6 +217,6 @@ CMakeFiles/main.dir/clean:
 .PHONY : CMakeFiles/main.dir/clean
 
 CMakeFiles/main.dir/depend:
-	cd /home/lois/Documents/cpp/fight_game/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/lois/Documents/cpp/fight_game/build /home/lois/Documents/cpp/fight_game/build /home/lois/Documents/cpp/fight_game/build /home/lois/Documents/cpp/fight_game/build /home/lois/Documents/cpp/fight_game/build/CMakeFiles/main.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/lois/Documents/fight_game/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/lois/Documents/fight_game/build /home/lois/Documents/fight_game/build /home/lois/Documents/fight_game/build /home/lois/Documents/fight_game/build /home/lois/Documents/fight_game/build/CMakeFiles/main.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/main.dir/depend
 

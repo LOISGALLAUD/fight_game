@@ -57,10 +57,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/lois/Documents/cpp/fight_game/build
+CMAKE_SOURCE_DIR = /home/lois/Documents/fight_game/build
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/lois/Documents/cpp/fight_game/build
+CMAKE_BINARY_DIR = /home/lois/Documents/fight_game/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -87,9 +87,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/lois/Documents/cpp/fight_game/build/CMakeFiles /home/lois/Documents/cpp/fight_game/build//CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/lois/Documents/fight_game/build/CMakeFiles /home/lois/Documents/fight_game/build//CMakeFiles/progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/lois/Documents/cpp/fight_game/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/lois/Documents/fight_game/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -129,197 +129,197 @@ main/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/build
 .PHONY : main/fast
 
-home/lois/Documents/cpp/fight_game/src/Character.o: home/lois/Documents/cpp/fight_game/src/Character.cpp.o
-.PHONY : home/lois/Documents/cpp/fight_game/src/Character.o
+home/lois/Documents/fight_game/src/Character.o: home/lois/Documents/fight_game/src/Character.cpp.o
+.PHONY : home/lois/Documents/fight_game/src/Character.o
 
 # target to build an object file
-home/lois/Documents/cpp/fight_game/src/Character.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/home/lois/Documents/cpp/fight_game/src/Character.cpp.o
-.PHONY : home/lois/Documents/cpp/fight_game/src/Character.cpp.o
+home/lois/Documents/fight_game/src/Character.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/home/lois/Documents/fight_game/src/Character.cpp.o
+.PHONY : home/lois/Documents/fight_game/src/Character.cpp.o
 
-home/lois/Documents/cpp/fight_game/src/Character.i: home/lois/Documents/cpp/fight_game/src/Character.cpp.i
-.PHONY : home/lois/Documents/cpp/fight_game/src/Character.i
+home/lois/Documents/fight_game/src/Character.i: home/lois/Documents/fight_game/src/Character.cpp.i
+.PHONY : home/lois/Documents/fight_game/src/Character.i
 
 # target to preprocess a source file
-home/lois/Documents/cpp/fight_game/src/Character.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/home/lois/Documents/cpp/fight_game/src/Character.cpp.i
-.PHONY : home/lois/Documents/cpp/fight_game/src/Character.cpp.i
+home/lois/Documents/fight_game/src/Character.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/home/lois/Documents/fight_game/src/Character.cpp.i
+.PHONY : home/lois/Documents/fight_game/src/Character.cpp.i
 
-home/lois/Documents/cpp/fight_game/src/Character.s: home/lois/Documents/cpp/fight_game/src/Character.cpp.s
-.PHONY : home/lois/Documents/cpp/fight_game/src/Character.s
+home/lois/Documents/fight_game/src/Character.s: home/lois/Documents/fight_game/src/Character.cpp.s
+.PHONY : home/lois/Documents/fight_game/src/Character.s
 
 # target to generate assembly for a file
-home/lois/Documents/cpp/fight_game/src/Character.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/home/lois/Documents/cpp/fight_game/src/Character.cpp.s
-.PHONY : home/lois/Documents/cpp/fight_game/src/Character.cpp.s
+home/lois/Documents/fight_game/src/Character.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/home/lois/Documents/fight_game/src/Character.cpp.s
+.PHONY : home/lois/Documents/fight_game/src/Character.cpp.s
 
-home/lois/Documents/cpp/fight_game/src/Golem.o: home/lois/Documents/cpp/fight_game/src/Golem.cpp.o
-.PHONY : home/lois/Documents/cpp/fight_game/src/Golem.o
+home/lois/Documents/fight_game/src/Golem.o: home/lois/Documents/fight_game/src/Golem.cpp.o
+.PHONY : home/lois/Documents/fight_game/src/Golem.o
 
 # target to build an object file
-home/lois/Documents/cpp/fight_game/src/Golem.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/home/lois/Documents/cpp/fight_game/src/Golem.cpp.o
-.PHONY : home/lois/Documents/cpp/fight_game/src/Golem.cpp.o
+home/lois/Documents/fight_game/src/Golem.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/home/lois/Documents/fight_game/src/Golem.cpp.o
+.PHONY : home/lois/Documents/fight_game/src/Golem.cpp.o
 
-home/lois/Documents/cpp/fight_game/src/Golem.i: home/lois/Documents/cpp/fight_game/src/Golem.cpp.i
-.PHONY : home/lois/Documents/cpp/fight_game/src/Golem.i
+home/lois/Documents/fight_game/src/Golem.i: home/lois/Documents/fight_game/src/Golem.cpp.i
+.PHONY : home/lois/Documents/fight_game/src/Golem.i
 
 # target to preprocess a source file
-home/lois/Documents/cpp/fight_game/src/Golem.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/home/lois/Documents/cpp/fight_game/src/Golem.cpp.i
-.PHONY : home/lois/Documents/cpp/fight_game/src/Golem.cpp.i
+home/lois/Documents/fight_game/src/Golem.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/home/lois/Documents/fight_game/src/Golem.cpp.i
+.PHONY : home/lois/Documents/fight_game/src/Golem.cpp.i
 
-home/lois/Documents/cpp/fight_game/src/Golem.s: home/lois/Documents/cpp/fight_game/src/Golem.cpp.s
-.PHONY : home/lois/Documents/cpp/fight_game/src/Golem.s
+home/lois/Documents/fight_game/src/Golem.s: home/lois/Documents/fight_game/src/Golem.cpp.s
+.PHONY : home/lois/Documents/fight_game/src/Golem.s
 
 # target to generate assembly for a file
-home/lois/Documents/cpp/fight_game/src/Golem.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/home/lois/Documents/cpp/fight_game/src/Golem.cpp.s
-.PHONY : home/lois/Documents/cpp/fight_game/src/Golem.cpp.s
+home/lois/Documents/fight_game/src/Golem.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/home/lois/Documents/fight_game/src/Golem.cpp.s
+.PHONY : home/lois/Documents/fight_game/src/Golem.cpp.s
 
-home/lois/Documents/cpp/fight_game/src/Inventory.o: home/lois/Documents/cpp/fight_game/src/Inventory.cpp.o
-.PHONY : home/lois/Documents/cpp/fight_game/src/Inventory.o
+home/lois/Documents/fight_game/src/Inventory.o: home/lois/Documents/fight_game/src/Inventory.cpp.o
+.PHONY : home/lois/Documents/fight_game/src/Inventory.o
 
 # target to build an object file
-home/lois/Documents/cpp/fight_game/src/Inventory.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/home/lois/Documents/cpp/fight_game/src/Inventory.cpp.o
-.PHONY : home/lois/Documents/cpp/fight_game/src/Inventory.cpp.o
+home/lois/Documents/fight_game/src/Inventory.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/home/lois/Documents/fight_game/src/Inventory.cpp.o
+.PHONY : home/lois/Documents/fight_game/src/Inventory.cpp.o
 
-home/lois/Documents/cpp/fight_game/src/Inventory.i: home/lois/Documents/cpp/fight_game/src/Inventory.cpp.i
-.PHONY : home/lois/Documents/cpp/fight_game/src/Inventory.i
+home/lois/Documents/fight_game/src/Inventory.i: home/lois/Documents/fight_game/src/Inventory.cpp.i
+.PHONY : home/lois/Documents/fight_game/src/Inventory.i
 
 # target to preprocess a source file
-home/lois/Documents/cpp/fight_game/src/Inventory.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/home/lois/Documents/cpp/fight_game/src/Inventory.cpp.i
-.PHONY : home/lois/Documents/cpp/fight_game/src/Inventory.cpp.i
+home/lois/Documents/fight_game/src/Inventory.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/home/lois/Documents/fight_game/src/Inventory.cpp.i
+.PHONY : home/lois/Documents/fight_game/src/Inventory.cpp.i
 
-home/lois/Documents/cpp/fight_game/src/Inventory.s: home/lois/Documents/cpp/fight_game/src/Inventory.cpp.s
-.PHONY : home/lois/Documents/cpp/fight_game/src/Inventory.s
+home/lois/Documents/fight_game/src/Inventory.s: home/lois/Documents/fight_game/src/Inventory.cpp.s
+.PHONY : home/lois/Documents/fight_game/src/Inventory.s
 
 # target to generate assembly for a file
-home/lois/Documents/cpp/fight_game/src/Inventory.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/home/lois/Documents/cpp/fight_game/src/Inventory.cpp.s
-.PHONY : home/lois/Documents/cpp/fight_game/src/Inventory.cpp.s
+home/lois/Documents/fight_game/src/Inventory.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/home/lois/Documents/fight_game/src/Inventory.cpp.s
+.PHONY : home/lois/Documents/fight_game/src/Inventory.cpp.s
 
-home/lois/Documents/cpp/fight_game/src/Item.o: home/lois/Documents/cpp/fight_game/src/Item.cpp.o
-.PHONY : home/lois/Documents/cpp/fight_game/src/Item.o
+home/lois/Documents/fight_game/src/Item.o: home/lois/Documents/fight_game/src/Item.cpp.o
+.PHONY : home/lois/Documents/fight_game/src/Item.o
 
 # target to build an object file
-home/lois/Documents/cpp/fight_game/src/Item.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/home/lois/Documents/cpp/fight_game/src/Item.cpp.o
-.PHONY : home/lois/Documents/cpp/fight_game/src/Item.cpp.o
+home/lois/Documents/fight_game/src/Item.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/home/lois/Documents/fight_game/src/Item.cpp.o
+.PHONY : home/lois/Documents/fight_game/src/Item.cpp.o
 
-home/lois/Documents/cpp/fight_game/src/Item.i: home/lois/Documents/cpp/fight_game/src/Item.cpp.i
-.PHONY : home/lois/Documents/cpp/fight_game/src/Item.i
+home/lois/Documents/fight_game/src/Item.i: home/lois/Documents/fight_game/src/Item.cpp.i
+.PHONY : home/lois/Documents/fight_game/src/Item.i
 
 # target to preprocess a source file
-home/lois/Documents/cpp/fight_game/src/Item.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/home/lois/Documents/cpp/fight_game/src/Item.cpp.i
-.PHONY : home/lois/Documents/cpp/fight_game/src/Item.cpp.i
+home/lois/Documents/fight_game/src/Item.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/home/lois/Documents/fight_game/src/Item.cpp.i
+.PHONY : home/lois/Documents/fight_game/src/Item.cpp.i
 
-home/lois/Documents/cpp/fight_game/src/Item.s: home/lois/Documents/cpp/fight_game/src/Item.cpp.s
-.PHONY : home/lois/Documents/cpp/fight_game/src/Item.s
+home/lois/Documents/fight_game/src/Item.s: home/lois/Documents/fight_game/src/Item.cpp.s
+.PHONY : home/lois/Documents/fight_game/src/Item.s
 
 # target to generate assembly for a file
-home/lois/Documents/cpp/fight_game/src/Item.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/home/lois/Documents/cpp/fight_game/src/Item.cpp.s
-.PHONY : home/lois/Documents/cpp/fight_game/src/Item.cpp.s
+home/lois/Documents/fight_game/src/Item.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/home/lois/Documents/fight_game/src/Item.cpp.s
+.PHONY : home/lois/Documents/fight_game/src/Item.cpp.s
 
-home/lois/Documents/cpp/fight_game/src/Knight.o: home/lois/Documents/cpp/fight_game/src/Knight.cpp.o
-.PHONY : home/lois/Documents/cpp/fight_game/src/Knight.o
+home/lois/Documents/fight_game/src/Knight.o: home/lois/Documents/fight_game/src/Knight.cpp.o
+.PHONY : home/lois/Documents/fight_game/src/Knight.o
 
 # target to build an object file
-home/lois/Documents/cpp/fight_game/src/Knight.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/home/lois/Documents/cpp/fight_game/src/Knight.cpp.o
-.PHONY : home/lois/Documents/cpp/fight_game/src/Knight.cpp.o
+home/lois/Documents/fight_game/src/Knight.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/home/lois/Documents/fight_game/src/Knight.cpp.o
+.PHONY : home/lois/Documents/fight_game/src/Knight.cpp.o
 
-home/lois/Documents/cpp/fight_game/src/Knight.i: home/lois/Documents/cpp/fight_game/src/Knight.cpp.i
-.PHONY : home/lois/Documents/cpp/fight_game/src/Knight.i
+home/lois/Documents/fight_game/src/Knight.i: home/lois/Documents/fight_game/src/Knight.cpp.i
+.PHONY : home/lois/Documents/fight_game/src/Knight.i
 
 # target to preprocess a source file
-home/lois/Documents/cpp/fight_game/src/Knight.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/home/lois/Documents/cpp/fight_game/src/Knight.cpp.i
-.PHONY : home/lois/Documents/cpp/fight_game/src/Knight.cpp.i
+home/lois/Documents/fight_game/src/Knight.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/home/lois/Documents/fight_game/src/Knight.cpp.i
+.PHONY : home/lois/Documents/fight_game/src/Knight.cpp.i
 
-home/lois/Documents/cpp/fight_game/src/Knight.s: home/lois/Documents/cpp/fight_game/src/Knight.cpp.s
-.PHONY : home/lois/Documents/cpp/fight_game/src/Knight.s
+home/lois/Documents/fight_game/src/Knight.s: home/lois/Documents/fight_game/src/Knight.cpp.s
+.PHONY : home/lois/Documents/fight_game/src/Knight.s
 
 # target to generate assembly for a file
-home/lois/Documents/cpp/fight_game/src/Knight.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/home/lois/Documents/cpp/fight_game/src/Knight.cpp.s
-.PHONY : home/lois/Documents/cpp/fight_game/src/Knight.cpp.s
+home/lois/Documents/fight_game/src/Knight.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/home/lois/Documents/fight_game/src/Knight.cpp.s
+.PHONY : home/lois/Documents/fight_game/src/Knight.cpp.s
 
-home/lois/Documents/cpp/fight_game/src/Weapon.o: home/lois/Documents/cpp/fight_game/src/Weapon.cpp.o
-.PHONY : home/lois/Documents/cpp/fight_game/src/Weapon.o
+home/lois/Documents/fight_game/src/Weapon.o: home/lois/Documents/fight_game/src/Weapon.cpp.o
+.PHONY : home/lois/Documents/fight_game/src/Weapon.o
 
 # target to build an object file
-home/lois/Documents/cpp/fight_game/src/Weapon.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/home/lois/Documents/cpp/fight_game/src/Weapon.cpp.o
-.PHONY : home/lois/Documents/cpp/fight_game/src/Weapon.cpp.o
+home/lois/Documents/fight_game/src/Weapon.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/home/lois/Documents/fight_game/src/Weapon.cpp.o
+.PHONY : home/lois/Documents/fight_game/src/Weapon.cpp.o
 
-home/lois/Documents/cpp/fight_game/src/Weapon.i: home/lois/Documents/cpp/fight_game/src/Weapon.cpp.i
-.PHONY : home/lois/Documents/cpp/fight_game/src/Weapon.i
+home/lois/Documents/fight_game/src/Weapon.i: home/lois/Documents/fight_game/src/Weapon.cpp.i
+.PHONY : home/lois/Documents/fight_game/src/Weapon.i
 
 # target to preprocess a source file
-home/lois/Documents/cpp/fight_game/src/Weapon.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/home/lois/Documents/cpp/fight_game/src/Weapon.cpp.i
-.PHONY : home/lois/Documents/cpp/fight_game/src/Weapon.cpp.i
+home/lois/Documents/fight_game/src/Weapon.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/home/lois/Documents/fight_game/src/Weapon.cpp.i
+.PHONY : home/lois/Documents/fight_game/src/Weapon.cpp.i
 
-home/lois/Documents/cpp/fight_game/src/Weapon.s: home/lois/Documents/cpp/fight_game/src/Weapon.cpp.s
-.PHONY : home/lois/Documents/cpp/fight_game/src/Weapon.s
+home/lois/Documents/fight_game/src/Weapon.s: home/lois/Documents/fight_game/src/Weapon.cpp.s
+.PHONY : home/lois/Documents/fight_game/src/Weapon.s
 
 # target to generate assembly for a file
-home/lois/Documents/cpp/fight_game/src/Weapon.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/home/lois/Documents/cpp/fight_game/src/Weapon.cpp.s
-.PHONY : home/lois/Documents/cpp/fight_game/src/Weapon.cpp.s
+home/lois/Documents/fight_game/src/Weapon.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/home/lois/Documents/fight_game/src/Weapon.cpp.s
+.PHONY : home/lois/Documents/fight_game/src/Weapon.cpp.s
 
-home/lois/Documents/cpp/fight_game/src/Wizard.o: home/lois/Documents/cpp/fight_game/src/Wizard.cpp.o
-.PHONY : home/lois/Documents/cpp/fight_game/src/Wizard.o
+home/lois/Documents/fight_game/src/Wizard.o: home/lois/Documents/fight_game/src/Wizard.cpp.o
+.PHONY : home/lois/Documents/fight_game/src/Wizard.o
 
 # target to build an object file
-home/lois/Documents/cpp/fight_game/src/Wizard.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/home/lois/Documents/cpp/fight_game/src/Wizard.cpp.o
-.PHONY : home/lois/Documents/cpp/fight_game/src/Wizard.cpp.o
+home/lois/Documents/fight_game/src/Wizard.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/home/lois/Documents/fight_game/src/Wizard.cpp.o
+.PHONY : home/lois/Documents/fight_game/src/Wizard.cpp.o
 
-home/lois/Documents/cpp/fight_game/src/Wizard.i: home/lois/Documents/cpp/fight_game/src/Wizard.cpp.i
-.PHONY : home/lois/Documents/cpp/fight_game/src/Wizard.i
+home/lois/Documents/fight_game/src/Wizard.i: home/lois/Documents/fight_game/src/Wizard.cpp.i
+.PHONY : home/lois/Documents/fight_game/src/Wizard.i
 
 # target to preprocess a source file
-home/lois/Documents/cpp/fight_game/src/Wizard.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/home/lois/Documents/cpp/fight_game/src/Wizard.cpp.i
-.PHONY : home/lois/Documents/cpp/fight_game/src/Wizard.cpp.i
+home/lois/Documents/fight_game/src/Wizard.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/home/lois/Documents/fight_game/src/Wizard.cpp.i
+.PHONY : home/lois/Documents/fight_game/src/Wizard.cpp.i
 
-home/lois/Documents/cpp/fight_game/src/Wizard.s: home/lois/Documents/cpp/fight_game/src/Wizard.cpp.s
-.PHONY : home/lois/Documents/cpp/fight_game/src/Wizard.s
+home/lois/Documents/fight_game/src/Wizard.s: home/lois/Documents/fight_game/src/Wizard.cpp.s
+.PHONY : home/lois/Documents/fight_game/src/Wizard.s
 
 # target to generate assembly for a file
-home/lois/Documents/cpp/fight_game/src/Wizard.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/home/lois/Documents/cpp/fight_game/src/Wizard.cpp.s
-.PHONY : home/lois/Documents/cpp/fight_game/src/Wizard.cpp.s
+home/lois/Documents/fight_game/src/Wizard.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/home/lois/Documents/fight_game/src/Wizard.cpp.s
+.PHONY : home/lois/Documents/fight_game/src/Wizard.cpp.s
 
-home/lois/Documents/cpp/fight_game/src/main.o: home/lois/Documents/cpp/fight_game/src/main.cpp.o
-.PHONY : home/lois/Documents/cpp/fight_game/src/main.o
+home/lois/Documents/fight_game/src/main.o: home/lois/Documents/fight_game/src/main.cpp.o
+.PHONY : home/lois/Documents/fight_game/src/main.o
 
 # target to build an object file
-home/lois/Documents/cpp/fight_game/src/main.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/home/lois/Documents/cpp/fight_game/src/main.cpp.o
-.PHONY : home/lois/Documents/cpp/fight_game/src/main.cpp.o
+home/lois/Documents/fight_game/src/main.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/home/lois/Documents/fight_game/src/main.cpp.o
+.PHONY : home/lois/Documents/fight_game/src/main.cpp.o
 
-home/lois/Documents/cpp/fight_game/src/main.i: home/lois/Documents/cpp/fight_game/src/main.cpp.i
-.PHONY : home/lois/Documents/cpp/fight_game/src/main.i
+home/lois/Documents/fight_game/src/main.i: home/lois/Documents/fight_game/src/main.cpp.i
+.PHONY : home/lois/Documents/fight_game/src/main.i
 
 # target to preprocess a source file
-home/lois/Documents/cpp/fight_game/src/main.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/home/lois/Documents/cpp/fight_game/src/main.cpp.i
-.PHONY : home/lois/Documents/cpp/fight_game/src/main.cpp.i
+home/lois/Documents/fight_game/src/main.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/home/lois/Documents/fight_game/src/main.cpp.i
+.PHONY : home/lois/Documents/fight_game/src/main.cpp.i
 
-home/lois/Documents/cpp/fight_game/src/main.s: home/lois/Documents/cpp/fight_game/src/main.cpp.s
-.PHONY : home/lois/Documents/cpp/fight_game/src/main.s
+home/lois/Documents/fight_game/src/main.s: home/lois/Documents/fight_game/src/main.cpp.s
+.PHONY : home/lois/Documents/fight_game/src/main.s
 
 # target to generate assembly for a file
-home/lois/Documents/cpp/fight_game/src/main.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/home/lois/Documents/cpp/fight_game/src/main.cpp.s
-.PHONY : home/lois/Documents/cpp/fight_game/src/main.cpp.s
+home/lois/Documents/fight_game/src/main.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/home/lois/Documents/fight_game/src/main.cpp.s
+.PHONY : home/lois/Documents/fight_game/src/main.cpp.s
 
 # Help Target
 help:
@@ -330,30 +330,30 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... main"
-	@echo "... home/lois/Documents/cpp/fight_game/src/Character.o"
-	@echo "... home/lois/Documents/cpp/fight_game/src/Character.i"
-	@echo "... home/lois/Documents/cpp/fight_game/src/Character.s"
-	@echo "... home/lois/Documents/cpp/fight_game/src/Golem.o"
-	@echo "... home/lois/Documents/cpp/fight_game/src/Golem.i"
-	@echo "... home/lois/Documents/cpp/fight_game/src/Golem.s"
-	@echo "... home/lois/Documents/cpp/fight_game/src/Inventory.o"
-	@echo "... home/lois/Documents/cpp/fight_game/src/Inventory.i"
-	@echo "... home/lois/Documents/cpp/fight_game/src/Inventory.s"
-	@echo "... home/lois/Documents/cpp/fight_game/src/Item.o"
-	@echo "... home/lois/Documents/cpp/fight_game/src/Item.i"
-	@echo "... home/lois/Documents/cpp/fight_game/src/Item.s"
-	@echo "... home/lois/Documents/cpp/fight_game/src/Knight.o"
-	@echo "... home/lois/Documents/cpp/fight_game/src/Knight.i"
-	@echo "... home/lois/Documents/cpp/fight_game/src/Knight.s"
-	@echo "... home/lois/Documents/cpp/fight_game/src/Weapon.o"
-	@echo "... home/lois/Documents/cpp/fight_game/src/Weapon.i"
-	@echo "... home/lois/Documents/cpp/fight_game/src/Weapon.s"
-	@echo "... home/lois/Documents/cpp/fight_game/src/Wizard.o"
-	@echo "... home/lois/Documents/cpp/fight_game/src/Wizard.i"
-	@echo "... home/lois/Documents/cpp/fight_game/src/Wizard.s"
-	@echo "... home/lois/Documents/cpp/fight_game/src/main.o"
-	@echo "... home/lois/Documents/cpp/fight_game/src/main.i"
-	@echo "... home/lois/Documents/cpp/fight_game/src/main.s"
+	@echo "... home/lois/Documents/fight_game/src/Character.o"
+	@echo "... home/lois/Documents/fight_game/src/Character.i"
+	@echo "... home/lois/Documents/fight_game/src/Character.s"
+	@echo "... home/lois/Documents/fight_game/src/Golem.o"
+	@echo "... home/lois/Documents/fight_game/src/Golem.i"
+	@echo "... home/lois/Documents/fight_game/src/Golem.s"
+	@echo "... home/lois/Documents/fight_game/src/Inventory.o"
+	@echo "... home/lois/Documents/fight_game/src/Inventory.i"
+	@echo "... home/lois/Documents/fight_game/src/Inventory.s"
+	@echo "... home/lois/Documents/fight_game/src/Item.o"
+	@echo "... home/lois/Documents/fight_game/src/Item.i"
+	@echo "... home/lois/Documents/fight_game/src/Item.s"
+	@echo "... home/lois/Documents/fight_game/src/Knight.o"
+	@echo "... home/lois/Documents/fight_game/src/Knight.i"
+	@echo "... home/lois/Documents/fight_game/src/Knight.s"
+	@echo "... home/lois/Documents/fight_game/src/Weapon.o"
+	@echo "... home/lois/Documents/fight_game/src/Weapon.i"
+	@echo "... home/lois/Documents/fight_game/src/Weapon.s"
+	@echo "... home/lois/Documents/fight_game/src/Wizard.o"
+	@echo "... home/lois/Documents/fight_game/src/Wizard.i"
+	@echo "... home/lois/Documents/fight_game/src/Wizard.s"
+	@echo "... home/lois/Documents/fight_game/src/main.o"
+	@echo "... home/lois/Documents/fight_game/src/main.i"
+	@echo "... home/lois/Documents/fight_game/src/main.s"
 .PHONY : help
 
 

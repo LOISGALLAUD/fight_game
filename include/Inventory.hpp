@@ -1,13 +1,11 @@
 #ifndef INVENTORY_HPP
 #define INVENTORY_HPP
-#include <cstddef>
-#include <iterator>
+
 #define MAX_ITEMS 10
 #define MAX_WEAPONS 1
 
-#include "Item.hpp"
+#include "Consumable.hpp"
 #include "Weapon.hpp"
-// #include "Armor.hpp"
 #include <iostream>
 #include <string>
 #include <vector>

@@ -3,7 +3,7 @@
 #include <iostream>
 #include <string>
 
-void Weapon::displayInfo()
+void Weapon::display()
 {
     std::cout << "Weapon: " << name << std::endl;
     std::cout << "Rarity: " << rarity << std::endl;

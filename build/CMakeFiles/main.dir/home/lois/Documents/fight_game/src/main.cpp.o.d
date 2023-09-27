@@ -1,8 +1,7 @@
-CMakeFiles/main.dir/home/lois/Documents/cpp/fight_game/src/Weapon.cpp.o: \
- /home/lois/Documents/cpp/fight_game/src/Weapon.cpp \
- /usr/include/stdc-predef.h \
- /home/lois/Documents/cpp/fight_game/src/../include/Weapon.hpp \
- /home/lois/Documents/cpp/fight_game/src/../include/Item.hpp \
+CMakeFiles/main.dir/home/lois/Documents/fight_game/src/main.cpp.o: \
+ /home/lois/Documents/fight_game/src/main.cpp /usr/include/stdc-predef.h \
+ /home/lois/Documents/fight_game/src/../include/Consumable.hpp \
+ /home/lois/Documents/fight_game/src/../include/Item.hpp \
  /usr/include/c++/11/iostream \
  /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/os_defines.h \
@@ -149,4 +148,16 @@ CMakeFiles/main.dir/home/lois/Documents/cpp/fight_game/src/Weapon.cpp.o: \
  /usr/include/c++/11/bits/basic_ios.tcc \
  /usr/include/c++/11/bits/ostream.tcc /usr/include/c++/11/istream \
  /usr/include/c++/11/bits/istream.tcc \
- /home/lois/Documents/cpp/fight_game/src/../include/Item.hpp
+ /home/lois/Documents/fight_game/src/../include/Golem.hpp \
+ /home/lois/Documents/fight_game/src/../include/Character.hpp \
+ /home/lois/Documents/fight_game/src/../include/Inventory.hpp \
+ /home/lois/Documents/fight_game/src/../include/Consumable.hpp \
+ /home/lois/Documents/fight_game/src/../include/Weapon.hpp \
+ /usr/include/c++/11/vector /usr/include/c++/11/bits/stl_uninitialized.h \
+ /usr/include/c++/11/bits/stl_vector.h \
+ /usr/include/c++/11/bits/stl_bvector.h \
+ /usr/include/c++/11/bits/vector.tcc \
+ /home/lois/Documents/fight_game/src/../include/Item.hpp \
+ /home/lois/Documents/fight_game/src/../include/Knight.hpp \
+ /home/lois/Documents/fight_game/src/../include/Weapon.hpp \
+ /home/lois/Documents/fight_game/src/../include/Wizard.hpp

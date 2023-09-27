@@ -4,7 +4,7 @@
 # compile CXX with /usr/bin/c++
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/home/lois/Documents/cpp/fight_game/build/../include
+CXX_INCLUDES = -I/home/lois/Documents/fight_game/build/../include
 
 CXX_FLAGS = -g
 

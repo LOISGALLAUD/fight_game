@@ -11,13 +11,14 @@ class Weapon : public Item
         : Item(name, rarity, price), damage(damage){};
 
     // Getters
+    std::string getType() const { return "Weapon"; };
     int getDamage() const { return damage; };
 
     // Setters
     void setDamage(int damage) { this->damage = damage; };
 
     // Methods
-    void displayInfo();
+    void display();
 
   private:
     int damage = 0;

@@ -4,10 +4,10 @@
 Character::Character(std::string name, int health, int strength)
     : name(name), health(health), strength(strength)
 {
-    this->displayInfo();
+    this->display();
 }
 
-void Character::displayInfo() const
+void Character::display() const
 {
     std::cout << "Name: " << name << std::endl;
     std::cout << "HP: " << health << std::endl;
@@ -61,7 +61,8 @@ void Character::equip(Weapon *weapon_ptr)
         inventory.addWeapon(weapon_ptr);
         // Add Strength
         strength += weapon_ptr->getDamage();
-        std::cout << name << " equipped " << weapon_ptr->getName() << std::endl;
+        std::cout << name << " equipped " << weapon_ptr->getName() << " (+"
+                  << weapon_ptr->getDamage() << " Strength)" << std::endl;
     }
     else
         std::cout << name << " couldn't equip " << weapon_ptr->getName()
@@ -79,4 +80,13 @@ void Character::unequip()
     }
     else
         std::cout << name << " couldn't unequip weapon." << std::endl;
+}
+
+void Character::use(Consumable *consumable_ptr)
+{
+
+    // Add Health
+    health += consumable_ptr->getHealthBonus();
+    std::cout << name << " used " << consumable_ptr->getName() << " (+"
+              << consumable_ptr->getHealthBonus() << " HP)" << std::endl;
 }
