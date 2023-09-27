@@ -1,0 +1,3 @@
+/home/lois/Documents/cpp/fight_game/build/CMakeFiles/main.dir
+/home/lois/Documents/cpp/fight_game/build/CMakeFiles/edit_cache.dir
+/home/lois/Documents/cpp/fight_game/build/CMakeFiles/rebuild_cache.dir
