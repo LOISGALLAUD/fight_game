@@ -12,15 +12,14 @@ class Consumable : public Item
         : Item(name, weight, value), healthBonus(health){};
 
     // Getters
-    std::string getType() const { return "Consumable"; }
     int getHealthBonus() const { return healthBonus; }
 
     // Setters
     void setHealthBonus(int health) { this->healthBonus = health; }
 
     // Operators
-    // friend std::ostream &operator<<(std::ostream &os, const Consumable
-    // &consumable);
+    friend std::ostream &operator<<(std::ostream &os,
+                                    const Consumable &consumable);
 
     // Methods
     void display() const;

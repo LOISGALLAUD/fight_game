@@ -11,11 +11,13 @@ class Weapon : public Item
         : Item(name, rarity, price), damage(damage){};
 
     // Getters
-    std::string getType() const { return "Weapon"; };
     int getDamage() const { return damage; };
 
     // Setters
     void setDamage(int damage) { this->damage = damage; };
+
+    // Operators
+    // friend std::ostream &operator<<(std::ostream &os, const Weapon &weapon);
 
     // Methods
     void display();

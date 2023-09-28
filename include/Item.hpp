@@ -21,8 +21,11 @@ class Item
     void setRarity(size_t rarity) { this->rarity = rarity; };
     void setPrice(int price) { this->price = price; };
 
+    // Operators
+    friend std::ostream &operator<<(std::ostream &os, const Item &item);
+
     // Methods
-    // virtual void displayInfo() = 0;
+    void display();
 
   protected:
     std::string name;

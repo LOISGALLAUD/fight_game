@@ -4,15 +4,17 @@
 Character::Character(std::string name, int health, int strength)
     : name(name), health(health), strength(strength)
 {
-    this->display();
+    std::cout << "-> Character created." << std::endl;
+    std::cout << *this;
 }
 
-void Character::display() const
+std::ostream &operator<<(std::ostream &os, const Character &character)
 {
-    std::cout << "Name: " << name << std::endl;
-    std::cout << "HP: " << health << std::endl;
-    std::cout << "Strength: " << strength << std::endl;
-    std::cout << std::endl;
+    os << "Name: " << character.name << std::endl;
+    os << "HP: " << character.health << std::endl;
+    os << "Strength: " << character.strength << std::endl;
+    os << std::endl;
+    return os;
 }
 
 void Character::displayInventory() const
