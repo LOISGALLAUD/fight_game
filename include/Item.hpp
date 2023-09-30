@@ -11,7 +11,6 @@ class Item
         : name(name), rarity(rarity), price(price){};
 
     // Getters
-    std::string getType() const { return "Item"; };
     std::string getName() const { return name; };
     size_t getRarity() const { return rarity; };
     int getPrice() const { return price; };

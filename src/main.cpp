@@ -21,6 +21,7 @@ int main()
         new Consumable("Potion", 1, 10, 50); // name, rarity, price, health
 
     Knight dornar("Dornar");
+    dornar.collect(sword);
     dornar.equip(sword);
     std::cout << dornar;
 
