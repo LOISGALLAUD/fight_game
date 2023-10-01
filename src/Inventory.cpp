@@ -7,6 +7,7 @@ Inventory::~Inventory()
         delete item_ptr;
     }
     items.clear();
+    delete weapon;
 }
 
 void Inventory::displayItems() const
@@ -32,6 +33,26 @@ void Inventory::displayWeapons() const
         return;
     }
     std::cout << "\t-" << weapon->getName() << std::endl;
+}
+
+void Inventory::chooseItem() const
+{
+    if (items.size() != 0)
+    {
+        std::cout << "Choose an item:" << std::endl;
+        for (size_t i = 0; i < items.size(); i++)
+        {
+            std::cout << "\t" << i << " - " << items[i]->getName() << std::endl;
+        }
+        int choice;
+        std::cin >> choice;
+        while (choice < 0 || choice >= items.size())
+        {
+            std::cout << "Invalid choice, try again:" << std::endl;
+            std::cin >> choice;
+        }
+        std::cout << "You chose " << items[choice]->getName() << std::endl;
+    }
 }
 
 void Inventory::deleteItem(int index)
@@ -76,7 +97,8 @@ void Inventory::addWeapon(Weapon *weapon_ptr)
 {
     if (weapon == nullptr)
     {
-        weapon = new Weapon(*weapon_ptr);
+        Weapon *weapon = new Weapon(*weapon_ptr);
+        this->weapon = weapon;
     }
     else
     {

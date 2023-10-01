@@ -1519,38 +1519,8 @@ CMakeFiles/main.dir/home/lois/Documents/fight_game/src/main.cpp.o: /home/lois/Do
   /home/lois/Documents/fight_game/include/Item.hpp \
   /home/lois/Documents/fight_game/include/Knight.hpp \
   /home/lois/Documents/fight_game/include/Weapon.hpp \
-  /home/lois/Documents/fight_game/include/Wizard.hpp \
-  /usr/include/c++/11/locale \
-  /usr/include/c++/11/bits/locale_facets_nonio.h \
-  /usr/include/c++/11/ctime \
-  /usr/include/x86_64-linux-gnu/c++/11/bits/time_members.h \
-  /usr/include/x86_64-linux-gnu/c++/11/bits/messages_members.h \
-  /usr/include/libintl.h \
-  /usr/include/c++/11/bits/codecvt.h \
-  /usr/include/c++/11/bits/locale_facets_nonio.tcc \
-  /usr/include/c++/11/bits/locale_conv.h \
-  /usr/include/c++/11/bits/unique_ptr.h \
-  /usr/include/c++/11/utility \
-  /usr/include/c++/11/bits/stl_relops.h \
-  /usr/include/c++/11/tuple \
-  /usr/include/c++/11/array \
-  /usr/include/c++/11/bits/uses_allocator.h \
-  /usr/include/c++/11/bits/invoke.h
+  /home/lois/Documents/fight_game/include/Wizard.hpp
 
-
-/usr/include/c++/11/bits/uses_allocator.h:
-
-/usr/include/c++/11/array:
-
-/usr/include/c++/11/bits/stl_relops.h:
-
-/usr/include/c++/11/bits/locale_conv.h:
-
-/usr/include/x86_64-linux-gnu/c++/11/bits/messages_members.h:
-
-/usr/include/x86_64-linux-gnu/c++/11/bits/time_members.h:
-
-/usr/include/c++/11/bits/locale_facets_nonio.h:
 
 /home/lois/Documents/fight_game/src/main.cpp:
 
@@ -1615,8 +1585,6 @@ CMakeFiles/main.dir/home/lois/Documents/fight_game/src/main.cpp.o: /home/lois/Do
 /usr/include/wctype.h:
 
 /usr/include/x86_64-linux-gnu/bits/errno.h:
-
-/usr/include/c++/11/utility:
 
 /usr/include/errno.h:
 
@@ -1702,8 +1670,6 @@ CMakeFiles/main.dir/home/lois/Documents/fight_game/src/main.cpp.o: /home/lois/Do
 
 /usr/include/x86_64-linux-gnu/bits/types/mbstate_t.h:
 
-/usr/include/c++/11/tuple:
-
 /usr/include/c++/11/type_traits:
 
 /usr/include/x86_64-linux-gnu/bits/types/time_t.h:
@@ -1746,10 +1712,6 @@ CMakeFiles/main.dir/home/lois/Documents/fight_game/src/main.cpp.o: /home/lois/Do
 
 /usr/include/c++/11/iosfwd:
 
-/usr/include/c++/11/bits/codecvt.h:
-
-/usr/include/c++/11/ctime:
-
 /usr/include/x86_64-linux-gnu/bits/time64.h:
 
 /usr/include/x86_64-linux-gnu/bits/types/__mbstate_t.h:
@@ -1765,8 +1727,6 @@ CMakeFiles/main.dir/home/lois/Documents/fight_game/src/main.cpp.o: /home/lois/Do
 /usr/include/x86_64-linux-gnu/gnu/stubs-64.h:
 
 /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h:
-
-/usr/include/c++/11/bits/unique_ptr.h:
 
 /usr/include/c++/11/ostream:
 
@@ -1828,8 +1788,6 @@ CMakeFiles/main.dir/home/lois/Documents/fight_game/src/main.cpp.o: /home/lois/Do
 
 /usr/include/features-time64.h:
 
-/usr/include/c++/11/locale:
-
 /usr/include/linux/errno.h:
 
 /usr/include/x86_64-linux-gnu/bits/pthread_stack_min-dynamic.h:
@@ -1837,8 +1795,6 @@ CMakeFiles/main.dir/home/lois/Documents/fight_game/src/main.cpp.o: /home/lois/Do
 /usr/include/x86_64-linux-gnu/bits/waitstatus.h:
 
 /usr/include/c++/11/bits/postypes.h:
-
-/usr/include/c++/11/bits/invoke.h:
 
 /usr/include/x86_64-linux-gnu/bits/timex.h:
 
@@ -1904,8 +1860,6 @@ CMakeFiles/main.dir/home/lois/Documents/fight_game/src/main.cpp.o: /home/lois/Do
 
 /usr/include/x86_64-linux-gnu/bits/locale.h:
 
-/usr/include/libintl.h:
-
 /usr/include/x86_64-linux-gnu/bits/endianness.h:
 
 /usr/include/c++/11/bits/ios_base.h:
@@ -1917,8 +1871,6 @@ CMakeFiles/main.dir/home/lois/Documents/fight_game/src/main.cpp.o: /home/lois/Do
 /usr/include/sched.h:
 
 /usr/include/time.h:
-
-/usr/include/c++/11/bits/locale_facets_nonio.tcc:
 
 /usr/include/c++/11/bits/stl_pair.h:
 

@@ -33,6 +33,7 @@ class Inventory
     void display() const;
     void displayItems() const;
     void displayWeapons() const;
+    void chooseItem() const;
     void addItem(Item *item_ptr);
     void addWeapon(Weapon *weapon_ptr);
 
