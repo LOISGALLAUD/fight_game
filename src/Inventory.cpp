@@ -10,6 +10,11 @@ Inventory::~Inventory()
     delete weapon;
 }
 
+void Inventory::displayMoney() const
+{
+    std::cout << "-> Money: " << std::endl << "\t" << money << std::endl;
+}
+
 void Inventory::displayItems() const
 {
     std::cout << "-> Items:" << std::endl;
@@ -75,6 +80,7 @@ void Inventory::deleteWeapon()
 
 void Inventory::display() const
 {
+    displayMoney();
     displayItems();
     displayWeapons();
 }
@@ -83,9 +89,7 @@ void Inventory::addItem(Item *item_ptr)
 {
     if (items.size() < maxItems)
     {
-        // Créer un nouvel espace mémoire pour l'objet
-        Item *item = new Item(*item_ptr);
-        items.push_back(item);
+        items.push_back(item_ptr);
     }
     else
     {

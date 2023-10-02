@@ -24,7 +24,7 @@ class Item
     friend std::ostream &operator<<(std::ostream &os, const Item &item);
 
     // Methods
-    void display();
+    virtual void display() = 0;
 
   protected:
     std::string name;

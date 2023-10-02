@@ -16,14 +16,13 @@ class Inventory
     Inventory() = default;
 
     // Getters
-    std::vector<Item *> getItems() const { return items; }
+    int getMoney() const { return money; }
     Item *getItem(int index) const { return items[index]; }
     Weapon *getWeapon() const { return weapon; }
     size_t getMaxItems() const { return maxItems; }
 
     // Setters
-    void setItems(std::vector<Item *> items) { this->items = items; }
-    void setItem(int index, Item *item_ptr) { items[index] = item_ptr; }
+    void setMoney(int money) { this->money = money; }
 
     // Deleters
     void deleteItem(int index);
@@ -31,6 +30,7 @@ class Inventory
 
     // Methods
     void display() const;
+    void displayMoney() const;
     void displayItems() const;
     void displayWeapons() const;
     void chooseItem() const;
@@ -44,6 +44,7 @@ class Inventory
     bool hasWeapon() const { return weapon != nullptr; }
 
   private:
+    int money = 0;
     size_t maxItems = MAX_ITEMS;
     std::vector<Item *> items;
     Weapon *weapon = nullptr;

@@ -22,12 +22,14 @@ class Character
     void setName(std::string name) { this->name = name; }
     void setHealth(int health) { this->health = health; }
     void setStrength(int strength) { this->strength = strength; }
+    void setMoney(int money) { inventory.setMoney(money); }
 
     // Operators
     friend std::ostream &operator<<(std::ostream &os,
                                     const Character &character);
 
     // Methods
+    void display() const;
     void displayInventory() const;
     void receiveDamage(int damage);
     virtual void attack(Character &target) = 0; // Pure virtual method
