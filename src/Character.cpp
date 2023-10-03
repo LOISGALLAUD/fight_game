@@ -85,9 +85,22 @@ void Character::unequip()
 
 void Character::use(Consumable *consumable_ptr)
 {
-
     // Add Health
     health += consumable_ptr->getHealthBonus();
     std::cout << name << " used " << consumable_ptr->getName() << " (+"
               << consumable_ptr->getHealthBonus() << " HP)" << std::endl;
+}
+
+void Character::pay(Character &target, int amount)
+{
+    if (inventory.getMoney() >= amount)
+    {
+        inventory.removeMoney(amount);
+        target.inventory.addMoney(amount);
+        std::cout << name << " paid " << amount << " to " << target.name
+                  << std::endl;
+    }
+    else
+        std::cout << name << " couldn't pay " << amount << " to " << target.name
+                  << std::endl;
 }

@@ -47,8 +47,9 @@ class Character
     // Choose
     Weapon *chooseWeapon() const { return inventory.chooseWeapon(); }
     // Money
-    // void addMoney(int amount) { inventory.addMoney(amount); }
-    // void removeMoney(int amount) { inventory.removeMoney(amount); }
+    void addMoney(int amount) { inventory.addMoney(amount); }
+    void removeMoney(int amount) { inventory.removeMoney(amount); }
+    void pay(Character &target, int amount);
 
     // Booleans
     bool isAlive() const { return health > 0; }

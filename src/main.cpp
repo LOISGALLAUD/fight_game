@@ -16,7 +16,10 @@ int main()
     Weapon *sword =
         new Weapon("Excalibur", 1, 10, 50); // name, rarity, price, damage
     Knight dornar("Dornar");
-    dornar.collect(sword);
-    equipWeaponTo(dornar);
+    Wizard gandalf("Gandalf");
+    gandalf.addMoney(1000);
+    gandalf.pay(dornar, 100);
+    dornar.displayInventory();
+    gandalf.displayInventory();
     return 0;
 }

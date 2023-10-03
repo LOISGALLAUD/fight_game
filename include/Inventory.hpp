@@ -37,6 +37,7 @@ class Inventory
     void addWeapon(Weapon *weapon_ptr);
     // Money
     void addMoney(int amount) { money += amount; }
+    void removeMoney(int amount) { money -= amount; }
 
     // Booleans
     bool isFull() const { return items.size() == maxItems; }
