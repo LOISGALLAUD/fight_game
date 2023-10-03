@@ -2,7 +2,7 @@
 
 if [ ! -d "build/CMakeFiles" ]; then
     cd build/
-    cmake .
+    cmake ..
     cd ..
 fi
 

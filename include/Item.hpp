@@ -6,7 +6,7 @@ class Item
 {
   public:
     // Constructor & Destructor
-    ~Item() = default;
+    virtual ~Item() = default;
     Item(std::string name, size_t rarity, int price)
         : name(name), rarity(rarity), price(price){};
 
@@ -25,6 +25,9 @@ class Item
 
     // Methods
     virtual void display() = 0;
+
+    // Booleans
+    bool isWeapon() const;
 
   protected:
     std::string name;

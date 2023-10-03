@@ -40,31 +40,55 @@ void Inventory::displayWeapons() const
     std::cout << "\t-" << weapon->getName() << std::endl;
 }
 
-void Inventory::chooseItem() const
+// void Inventory::chooseItem() const
+// {
+//     if (items.size() != 0)
+//     {
+//         std::cout << "Choose an item:" << std::endl;
+//         for (size_t i = 0; i < items.size(); i++)
+//         {
+//             std::cout << "\t" << i << " - " << items[i]->getName() <<
+//             std::endl;
+//         }
+//         int choice;
+//         std::cin >> choice;
+//         while (choice < 0 || choice >= items.size())
+//         {
+//             std::cout << "Invalid choice, try again:" << std::endl;
+//             std::cin >> choice;
+//         }
+//         std::cout << "You chose " << items[choice]->getName() << std::endl;
+//     }
+// }
+
+Weapon *Inventory::chooseWeapon() const
 {
-    if (items.size() != 0)
+
+    std::cout << "Choose a weapon:" << std::endl;
+    for (size_t i = 0; i < this->items.size(); i++)
     {
-        std::cout << "Choose an item:" << std::endl;
-        for (size_t i = 0; i < items.size(); i++)
+        if (this->items[i]->isWeapon())
         {
-            std::cout << "\t" << i << " - " << items[i]->getName() << std::endl;
+            std::cout << "\t" << i << " - " << this->items[i]->getName()
+                      << std::endl;
         }
-        int choice;
-        std::cin >> choice;
-        while (choice < 0 || choice >= items.size())
-        {
-            std::cout << "Invalid choice, try again:" << std::endl;
-            std::cin >> choice;
-        }
-        std::cout << "You chose " << items[choice]->getName() << std::endl;
     }
+    int choice;
+    std::cin >> choice;
+    while (choice < 0 ||
+           (choice >= this->items.size()) | !this->items[choice]->isWeapon())
+    {
+        std::cout << "Invalid choice, try again:" << std::endl;
+        std::cin >> choice;
+    }
+    std::cout << "You chose " << this->items[choice]->getName() << std::endl;
+    return dynamic_cast<Weapon *>(this->items[choice]);
 }
 
 void Inventory::deleteItem(int index)
 {
-    if (items[index] != nullptr) // items[index] == items.at(index)
+    if (items[index] != nullptr)
     {
-        delete items[index];
         items.erase(items.begin() + index);
     }
 }
@@ -73,7 +97,6 @@ void Inventory::deleteWeapon()
 {
     if (this->hasWeapon())
     {
-        delete weapon;
         weapon = nullptr;
     }
 }
@@ -101,8 +124,8 @@ void Inventory::addWeapon(Weapon *weapon_ptr)
 {
     if (weapon == nullptr)
     {
-        Weapon *weapon = new Weapon(*weapon_ptr);
-        this->weapon = weapon;
+        std::cout << "Weapon slot is empty: equipping..." << std::endl;
+        weapon = weapon_ptr;
     }
     else
     {

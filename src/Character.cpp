@@ -61,8 +61,7 @@ void Character::equip(Weapon *weapon_ptr)
     if (!inventory.hasWeapon())
     {
         inventory.addWeapon(weapon_ptr);
-        // Add Strength
-        strength += weapon_ptr->getDamage();
+        strength += weapon_ptr->getDamage(); // Add Strength
         std::cout << name << " equipped " << weapon_ptr->getName() << " (+"
                   << weapon_ptr->getDamage() << " Strength)" << std::endl;
     }
@@ -81,7 +80,7 @@ void Character::unequip()
         std::cout << name << " unequipped weapon." << std::endl;
     }
     else
-        std::cout << name << " couldn't unequip weapon." << std::endl;
+        std::cout << name << " couldn't unequip no weapon." << std::endl;
 }
 
 void Character::use(Consumable *consumable_ptr)
