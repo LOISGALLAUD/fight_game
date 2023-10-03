@@ -65,24 +65,22 @@ Weapon *Inventory::chooseWeapon() const
 {
 
     std::cout << "Choose a weapon:" << std::endl;
-    for (size_t i = 0; i < this->items.size(); i++)
+    for (size_t i = 0; i < items.size(); i++)
     {
-        if (this->items[i]->isWeapon())
+        if (items[i]->isWeapon())
         {
-            std::cout << "\t" << i << " - " << this->items[i]->getName()
-                      << std::endl;
+            std::cout << "\t" << i << " - " << items[i]->getName() << std::endl;
         }
     }
     int choice;
     std::cin >> choice;
-    while (choice < 0 ||
-           (choice >= this->items.size()) | !this->items[choice]->isWeapon())
+    while (choice < 0 || (choice >= items.size()) | !items[choice]->isWeapon())
     {
         std::cout << "Invalid choice, try again:" << std::endl;
         std::cin >> choice;
     }
-    std::cout << "You chose " << this->items[choice]->getName() << std::endl;
-    return dynamic_cast<Weapon *>(this->items[choice]);
+    std::cout << "You chose " << items[choice]->getName() << std::endl;
+    return dynamic_cast<Weapon *>(items[choice]);
 }
 
 void Inventory::deleteItem(int index)

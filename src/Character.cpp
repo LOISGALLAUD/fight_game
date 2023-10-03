@@ -80,7 +80,7 @@ void Character::unequip()
         std::cout << name << " unequipped weapon." << std::endl;
     }
     else
-        std::cout << name << " couldn't unequip no weapon." << std::endl;
+        std::cout << name << " couldn't unequip weapon." << std::endl;
 }
 
 void Character::use(Consumable *consumable_ptr)

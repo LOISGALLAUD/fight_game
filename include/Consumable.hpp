@@ -15,7 +15,7 @@ class Consumable : public Item
     int getHealthBonus() const { return healthBonus; }
 
     // Setters
-    void setHealthBonus(int health) { this->healthBonus = health; }
+    void setHealthBonus(int health) { healthBonus = health; }
 
     // Operators
     friend std::ostream &operator<<(std::ostream &os,

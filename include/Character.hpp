@@ -16,6 +16,8 @@ class Character
     std::string getName() const { return name; }
     int getHealth() const { return health; }
     int getStrength() const { return strength; }
+    // int getDamage() const { return strength + inventory.getDamage(); }
+    int getMoney() const { return inventory.getMoney(); }
 
     // Setters
     void setHealth(int health) { this->health = health; }
@@ -44,6 +46,9 @@ class Character
     void use(Consumable *consumable_ptr);
     // Choose
     Weapon *chooseWeapon() const { return inventory.chooseWeapon(); }
+    // Money
+    // void addMoney(int amount) { inventory.addMoney(amount); }
+    // void removeMoney(int amount) { inventory.removeMoney(amount); }
 
     // Booleans
     bool isAlive() const { return health > 0; }

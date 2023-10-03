@@ -1,8 +1,6 @@
 #ifndef INVENTORY_HPP
 #define INVENTORY_HPP
 
-#define MAX_ITEMS 10
-
 #include "Consumable.hpp"
 #include "Weapon.hpp"
 #include <iostream>
@@ -22,7 +20,7 @@ class Inventory
     size_t getMaxItems() const { return maxItems; }
 
     // Setters
-    void setMoney(int money) { this->money = money; }
+    void setMoney(int money) { money = money; }
 
     // Deleters
     void deleteItem(int index);
@@ -37,6 +35,8 @@ class Inventory
     Weapon *chooseWeapon() const;
     void addItem(Item *item_ptr);
     void addWeapon(Weapon *weapon_ptr);
+    // Money
+    void addMoney(int amount) { money += amount; }
 
     // Booleans
     bool isFull() const { return items.size() == maxItems; }
@@ -46,7 +46,7 @@ class Inventory
 
   private:
     int money = 0;
-    size_t maxItems = MAX_ITEMS;
+    size_t maxItems = 10;
     std::vector<Item *> items;
     Weapon *weapon = nullptr;
 };
