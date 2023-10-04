@@ -19,11 +19,13 @@ int main()
     Armor helmet =
         Armor("Helmet", 1, 10, 50); // name, rarity, price, damage reduction
     Knight dornar("Dornar");
+    Golem gomata("Gomata");
 
-    dornar.collect(&sword);
-    dornar.wear(&helmet);
-    equipWeaponTo(dornar);
-    dornar.displayInventory();
+    dornar.equip(&sword);
+    gomata.wear(&helmet);
+    dornar.attack(gomata);
+
+    std::cout << gomata << std::endl;
 
     return 0;
 }

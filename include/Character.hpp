@@ -21,6 +21,7 @@ class Character
     {
         return inventory.getIndex(item_ptr);
     }
+    int getArmorDefense() const { return inventory.getDefense(); }
 
     // Setters
     void setHealth(int health) { this->health = health; }
@@ -61,11 +62,13 @@ class Character
     // Booleans
     bool isAlive() const { return health > 0; }
     bool hasWeapon() const { return inventory.hasWeapon(); }
+    bool hasArmor() const { return inventory.hasArmor(); }
     bool isInventoryEmpty() const { return inventory.isEmpty(); }
 
   protected: // Protected attributes are accessible by derived classes
     std::string name;
     int health = 0;
+    float tenacity = 1.2;
     int strength = 0;
     Inventory inventory;
 };

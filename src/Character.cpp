@@ -26,7 +26,18 @@ void Character::displayInventory() const
 
 void Character::receiveDamage(int damage)
 {
-    health -= damage;
+
+    if (this->hasArmor())
+    {
+        damage -= this->getArmorDefense() * tenacity;
+        if (damage < 0)
+            damage = 0;
+    }
+    else
+    {
+        damage *= tenacity;
+    }
+
     if (this->isAlive())
         std::cout << name << " received " << damage << " damage." << std::endl;
     else

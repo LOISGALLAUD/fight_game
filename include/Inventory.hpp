@@ -21,6 +21,7 @@ class Inventory
     Weapon *getWeapon() const { return weapon; }
     size_t getMaxItems() const { return maxItems; }
     int getIndex(Item *item_ptr) const;
+    int getDefense() const { return armor->getDefense(); }
 
     // Setters
     void setGold(int gold) { gold = gold; }
