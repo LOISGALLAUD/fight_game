@@ -91,12 +91,35 @@ void Character::use(Consumable *consumable_ptr)
               << consumable_ptr->getHealthBonus() << " HP)" << std::endl;
 }
 
+void Character::wear(Armor *armor_ptr)
+{
+    if (!inventory.hasWeapon())
+    {
+        inventory.addArmor(armor_ptr);
+        std::cout << name << " equipped " << armor_ptr->getName() << std::endl;
+    }
+    else
+        std::cout << name << " couldn't equip " << armor_ptr->getName()
+                  << std::endl;
+}
+
+void Character::unclothe()
+{
+    if (inventory.hasArmor())
+    {
+        inventory.deleteArmor();
+        std::cout << name << " unequipped armor." << std::endl;
+    }
+    else
+        std::cout << name << " couldn't unequip armor." << std::endl;
+}
+
 void Character::pay(Character &target, int amount)
 {
-    if (inventory.getMoney() >= amount)
+    if (inventory.getGold() >= amount)
     {
-        inventory.removeMoney(amount);
-        target.inventory.addMoney(amount);
+        inventory.removeGold(amount);
+        target.inventory.addGold(amount);
         std::cout << name << " paid " << amount << " to " << target.name
                   << std::endl;
     }

@@ -16,8 +16,7 @@ class Character
     std::string getName() const { return name; }
     int getHealth() const { return health; }
     int getStrength() const { return strength; }
-    // int getDamage() const { return strength + inventory.getDamage(); }
-    int getMoney() const { return inventory.getMoney(); }
+    int getGold() const { return inventory.getGold(); }
 
     // Setters
     void setHealth(int health) { this->health = health; }
@@ -29,7 +28,6 @@ class Character
 
     // Methods
     // Display
-    void display() const;
     void displayInventory() const;
     // Health
     void receiveDamage(int damage);
@@ -42,13 +40,15 @@ class Character
     // Weapons
     void equip(Weapon *weapon_ptr);
     void unequip();
+    void wear(Armor *armor_ptr);
+    void unclothe();
     // Consumables
     void use(Consumable *consumable_ptr);
     // Choose
     Weapon *chooseWeapon() const { return inventory.chooseWeapon(); }
-    // Money
-    void addMoney(int amount) { inventory.addMoney(amount); }
-    void removeMoney(int amount) { inventory.removeMoney(amount); }
+    // Gold
+    void addGold(int amount) { inventory.addGold(amount); }
+    void removeGold(int amount) { inventory.removeGold(amount); }
     void pay(Character &target, int amount);
 
     // Booleans

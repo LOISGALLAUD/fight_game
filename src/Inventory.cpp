@@ -10,9 +10,9 @@ Inventory::~Inventory()
     delete weapon;
 }
 
-void Inventory::displayMoney() const
+void Inventory::displayGold() const
 {
-    std::cout << "-> Money: " << std::endl << "\t" << money << std::endl;
+    std::cout << "-> Gold: " << std::endl << "\t" << gold << std::endl;
 }
 
 void Inventory::displayItems() const
@@ -99,9 +99,17 @@ void Inventory::deleteWeapon()
     }
 }
 
+void Inventory::deleteArmor()
+{
+    if (this->hasArmor())
+    {
+        armor = nullptr;
+    }
+}
+
 void Inventory::display() const
 {
-    displayMoney();
+    displayGold();
     displayItems();
     displayWeapons();
 }
@@ -123,10 +131,24 @@ void Inventory::addWeapon(Weapon *weapon_ptr)
     if (weapon == nullptr)
     {
         std::cout << "Weapon slot is empty: equipping..." << std::endl;
+
         weapon = weapon_ptr;
     }
     else
     {
         std::cout << "Inventory already has a weapon." << std::endl;
+    }
+}
+
+void Inventory::addArmor(Armor *armor_ptr)
+{
+    if (armor == nullptr)
+    {
+        std::cout << "Armor slot is empty: equipping..." << std::endl;
+        armor = armor_ptr;
+    }
+    else
+    {
+        std::cout << "Inventory already has an armor." << std::endl;
     }
 }

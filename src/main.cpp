@@ -2,7 +2,6 @@
 Loïs GALLAUD
 https://github.com/LOISGALLAUD
 */
-
 #include "../include/Consumable.hpp"
 #include "../include/Golem.hpp"
 #include "../include/Item.hpp"
@@ -16,10 +15,10 @@ int main()
     Weapon *sword =
         new Weapon("Excalibur", 1, 10, 50); // name, rarity, price, damage
     Knight dornar("Dornar");
-    Wizard gandalf("Gandalf");
-    gandalf.addMoney(1000);
-    gandalf.pay(dornar, 100);
+
+    dornar.collect(sword);
+    equipWeaponTo(dornar);
     dornar.displayInventory();
-    gandalf.displayInventory();
+
     return 0;
 }
