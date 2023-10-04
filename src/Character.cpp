@@ -93,7 +93,7 @@ void Character::use(Consumable *consumable_ptr)
 
 void Character::wear(Armor *armor_ptr)
 {
-    if (!inventory.hasWeapon())
+    if (!inventory.hasArmor())
     {
         inventory.addArmor(armor_ptr);
         std::cout << name << " equipped " << armor_ptr->getName() << std::endl;

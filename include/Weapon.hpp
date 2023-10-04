@@ -1,7 +1,8 @@
 #ifndef WEAPON_HPP
 #define WEAPON_HPP
+
 #include "Item.hpp"
-#include <string>
+
 class Weapon : public Item
 {
   public:

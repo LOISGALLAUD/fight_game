@@ -17,10 +17,17 @@ class Character
     int getHealth() const { return health; }
     int getStrength() const { return strength; }
     int getGold() const { return inventory.getGold(); }
+    int getIndexOf(Item *item_ptr) const
+    {
+        return inventory.getIndex(item_ptr);
+    }
 
     // Setters
     void setHealth(int health) { this->health = health; }
     void setStrength(int strength) { this->strength = strength; }
+
+    // Deleters
+    void deleteItem(int index) { inventory.deleteItem(index); }
 
     // Operators
     friend std::ostream &operator<<(std::ostream &os,

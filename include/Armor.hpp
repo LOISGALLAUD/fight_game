@@ -17,6 +17,9 @@ class Armor : public Item
     // Setters
     void setDefense(int defense) { this->defense = defense; };
 
+    // Methods
+    void display();
+
   private:
     int defense = 0;
 };

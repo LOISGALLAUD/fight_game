@@ -16,9 +16,11 @@ class Inventory
 
     // Getters
     int getGold() const { return gold; }
+    std::vector<Item *> getItems() const { return items; }
     Item *getItem(int index) const { return items[index]; }
     Weapon *getWeapon() const { return weapon; }
     size_t getMaxItems() const { return maxItems; }
+    int getIndex(Item *item_ptr) const;
 
     // Setters
     void setGold(int gold) { gold = gold; }
@@ -32,8 +34,8 @@ class Inventory
     void display() const;
     void displayGold() const;
     void displayItems() const;
-    void displayWeapons() const;
-    // void chooseItem() const;
+    void displayWeapon() const;
+    void displayArmor() const;
     Weapon *chooseWeapon() const;
     void addItem(Item *item_ptr);
     void addWeapon(Weapon *weapon_ptr);

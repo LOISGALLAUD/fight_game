@@ -1,7 +1,4 @@
 #include "../include/Weapon.hpp"
-#include "../include/Item.hpp"
-#include <iostream>
-#include <string>
 
 void Weapon::display()
 {

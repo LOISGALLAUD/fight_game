@@ -1,7 +1,4 @@
-#include "../include/Character.hpp"
-#include "../include/Weapon.hpp"
-#include <iostream>
-#include <string>
+#include "../include/interface.hpp"
 
 void equipWeaponTo(Character &character)
 {
@@ -19,6 +16,8 @@ void equipWeaponTo(Character &character)
         {
             character.unequip();
             character.equip(weaponToEquip);
+            int index = character.getIndexOf(weaponToEquip);
+            character.deleteItem(index);
         }
     }
 }

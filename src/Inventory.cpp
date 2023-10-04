@@ -1,18 +1,22 @@
 #include "../include/Inventory.hpp"
 
-Inventory::~Inventory()
-{
-    for (auto item_ptr : items)
-    {
-        delete item_ptr;
-    }
-    items.clear();
-    delete weapon;
-}
+Inventory::~Inventory() { items.clear(); }
 
 void Inventory::displayGold() const
 {
     std::cout << "-> Gold: " << std::endl << "\t" << gold << std::endl;
+}
+
+int Inventory::getIndex(Item *item_ptr) const
+{
+    for (size_t i = 0; i < items.size(); i++)
+    {
+        if (items[i] == item_ptr)
+        {
+            return i;
+        }
+    }
+    return -1;
 }
 
 void Inventory::displayItems() const
@@ -29,7 +33,7 @@ void Inventory::displayItems() const
     }
 }
 
-void Inventory::displayWeapons() const
+void Inventory::displayWeapon() const
 {
     std::cout << "-> Weapons:" << std::endl;
     if (weapon == nullptr)
@@ -40,26 +44,16 @@ void Inventory::displayWeapons() const
     std::cout << "\t-" << weapon->getName() << std::endl;
 }
 
-// void Inventory::chooseItem() const
-// {
-//     if (items.size() != 0)
-//     {
-//         std::cout << "Choose an item:" << std::endl;
-//         for (size_t i = 0; i < items.size(); i++)
-//         {
-//             std::cout << "\t" << i << " - " << items[i]->getName() <<
-//             std::endl;
-//         }
-//         int choice;
-//         std::cin >> choice;
-//         while (choice < 0 || choice >= items.size())
-//         {
-//             std::cout << "Invalid choice, try again:" << std::endl;
-//             std::cin >> choice;
-//         }
-//         std::cout << "You chose " << items[choice]->getName() << std::endl;
-//     }
-// }
+void Inventory::displayArmor() const
+{
+    std::cout << "-> Armor:" << std::endl;
+    if (armor == nullptr)
+    {
+        std::cout << "\t/!\\ Empty /!\\" << std::endl;
+        return;
+    }
+    std::cout << "\t-" << armor->getName() << std::endl;
+}
 
 Weapon *Inventory::chooseWeapon() const
 {
@@ -111,7 +105,8 @@ void Inventory::display() const
 {
     displayGold();
     displayItems();
-    displayWeapons();
+    displayWeapon();
+    displayArmor();
 }
 
 void Inventory::addItem(Item *item_ptr)
