@@ -15,7 +15,9 @@ class Character
     // Getters
     std::string getName() const { return name; }
     int getHealth() const { return health; }
+    float getTenacity() const { return tenacity; }
     int getStrength() const { return strength; }
+    int getMana() const { return mana; }
     int getGold() const { return inventory.getGold(); }
     int getIndexOf(Item *item_ptr) const
     {
@@ -68,8 +70,9 @@ class Character
   protected: // Protected attributes are accessible by derived classes
     std::string name;
     int health = 0;
-    float tenacity = 1.2;
+    float tenacity = 0.85;
     int strength = 0;
+    int mana = 0;
     Inventory inventory;
 };
 

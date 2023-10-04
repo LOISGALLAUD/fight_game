@@ -29,14 +29,12 @@ void Character::receiveDamage(int damage)
 
     if (this->hasArmor())
     {
-        damage -= this->getArmorDefense() * tenacity;
+        damage -= this->getArmorDefense();
         if (damage < 0)
             damage = 0;
     }
-    else
-    {
-        damage *= tenacity;
-    }
+
+    health -= damage * tenacity;
 
     if (this->isAlive())
         std::cout << name << " received " << damage << " damage." << std::endl;
