@@ -1,6 +1,6 @@
 #include "../include/Consumable.hpp"
 
-void Consumable::display() const
+void Consumable::display()
 {
     std::cout << "Consumable: " << name << std::endl;
     std::cout << "Rarity: " << rarity << std::endl;

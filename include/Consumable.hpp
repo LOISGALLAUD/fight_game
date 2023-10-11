@@ -22,7 +22,7 @@ class Consumable : public Item
                                     const Consumable &consumable);
 
     // Methods
-    void display() const;
+    void display();
 
   private:
     int healthBonus = 0;

@@ -21,3 +21,7 @@ void equipWeaponTo(Character &character)
         }
     }
 }
+
+void clearScreen() { std::cout << std::string(100, '\n'); }
+
+void displayBounds() { std::cout << std::string(100, '=') << std::endl; }
